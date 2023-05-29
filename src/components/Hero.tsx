@@ -54,6 +54,11 @@ export default function Hero({}: Props) {
               Shopify & Wix Developer
             </button>
           </Link>
+          <Link href="#contact">
+            <button className="px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#FFA300]/40 hover:text-[#FFA300]/40">
+              Contact
+            </button>
+          </Link>
         </div>
       </div>
     </div>

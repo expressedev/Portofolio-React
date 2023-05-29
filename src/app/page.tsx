@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Business from "@/components/Business";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -34,7 +35,10 @@ export default function Home() {
       <section id="shopify" className="snap-start">
         <Business />
       </section>
-      {/* Contact Me */}
+      <section id="contact" className="snap-center">
+        {/* Contact Me */}
+        <Contact />
+      </section>
     </div>
   );
 }
